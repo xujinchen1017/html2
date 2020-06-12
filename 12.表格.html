@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>表格</title>
+    </head>
+    <body>
+        <table border="1"> <!--調整表格的寬線高度-->
+        <tr><td>1</td><td>2</td><td>3</td></tr><!--tr 表格的列--> <!--td 表格的欄-->
+        <tr><td>4</td><td>5</td><td>6</td></tr>
+    </table>
+    <table border="1">
+        <tr><td>1</td><td colspan="2">2 3</td></tr>
+        <tr><td>4</td><td>5</td><td>6</td></tr>
+    </table>
+    <table border="1">
+        <tr><td rowspan="2">1 4</td><td>2</td><td>3</td></tr> <!--rowspan 合併表格多個列-->
+        <tr>            <td>5</td><td>6</td></tr>
+    </table>
+    <table border="1">
+        <tr><td>1</td><td>2</td><td>3</td></tr>
+        <tr><td>4</td><td rowspan="2" colspan="2">5 6 8 9</td></tr> <!--colspan 合併表格多個欄-->
+    </table>
+    </body>
+</html>

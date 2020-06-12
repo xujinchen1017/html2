@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title></title>
+    </head>
+    <body>
+        <form method="post" action="registration.php"> <!--設定戶動式表單之資料傳送方式-->
+            帳號：<input type="text" name="id"><br>
+            性別：<input type="radio" name="sex" value="M">男 <!--在表單中加入輸入欄位-->
+            興趣：<input type="radio" name="sex" value="F">女<br>
+                  <input type="checkbox" name="interest" value="movie" checked>看電影
+                  <input type="checkbox" name="interest" value="bike">騎車
+                  <input type="checkbox" name="interest" value="sing">唱歌<br>
+            居住地：<select name="county"> <!--在表單中定義列表欄-->
+                        <option value="taoyuan">桃園</option> <!--定義表單中列表欄的項目-->
+                        <option value="hsinchu">新竹</option>
+                        <option value="miaoli">苗栗</option>
+                    </select><br>
+            自傳：<br> <!--換行-->
+            <textarea name="autobiography" rows="5" cols="40"></textarea><br>
+            <input type="submit" value="註冊">
+            <input type="reset" value="清除">
+        </form>
+        
+    </body>
+</html>
